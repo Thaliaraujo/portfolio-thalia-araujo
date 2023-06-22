@@ -1,0 +1,45 @@
+.skills{
+    margin: 4rem 1rem 0 1rem;
+    padding: 2rem 0; 
+}
+
+.skills__title{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills__container{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skills__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+}
+
+.skills__item__title{
+    font-weight: 600;
+    padding: 0.75rem 0.5rem ;
+    text-transform: uppercase;
+}
+
+.skills__item__image{
+    width: 80vw;
+}
+
+@media screen and (min-width: 1200px) {
+    .skills__title{
+        font-size: 2em;
+    }
+
+    .skills__item__title{
+        font-size: 1.5em;
+    }
+}

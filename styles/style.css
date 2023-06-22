@@ -1,0 +1,39 @@
+@import url(../styles/header.css);
+@import url(../styles/banner.css);
+@import url(../styles/about.css);
+@import url(../styles/skills.css);
+@import url(../styles/hobbies-degree.css);
+@import url(../styles/projects.css);
+@import url(../styles/contact.css);
+@import url(../styles/footer.css);
+
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark-blue: #162950;
+    --pink: #F22FB0;
+    --gradient-main: linear-gradient(270deg, #F22FB0 69.27%, rgba(255, 197, 111, 0.9) 100%);
+    --gradient-dark: linear-gradient(178.38deg, #121212 57.18%, #1E3A8A 99.77%);
+
+    --montserrat: "Montserrat";
+    --poppins: "Poppins";
+}
+
+body{
+    background-color: var(--white);
+    background-image: url("../assets/Gradient-2.png"), url(../assets/Gradient.svg);
+    background-position:right bottom, left top;
+    background-repeat: no-repeat;
+    color: var(--dark-blue);
+    font-family: var(--poppins);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.dark-mode {
+    background-color: var(--black);
+    background-image: url("../assets/gradient-dark.svg"), url(../assets/gradient-dark2.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    color: var(--white);
+  }

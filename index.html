@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
+
+        <title>Portfólio Pessoal</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container" >
+                <input class="container__input" type="checkbox" id="menu"> 
+                <label for="menu" class="container__label">
+                    <span class="header__menu header__image" id="header__menu"></span>
+                </label>
+
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a class="list__menu__link" href="#about">about</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#degree">Degree</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#projects">Projects</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#contact">Contact</a></li>
+                </ul>
+
+                <img class="header__image" id="logo" src="./assets/Logo_blue.svg" alt="Logo do Portfólio">
+            </div>
+
+            <ul class="open__menu">
+                <li class="open__menu__item"><a class="open__menu__link" href="#about">About</a></li>
+                <input class="open__menu__input" type="checkbox" id="open__menu"> 
+                <label for="open__menu" class="open__menu__label">
+                    <li class="open__menu__categorias">Categorias</li>
+                </label>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a class="list__menu__link" href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#degree">Degree</a></li>
+                    <li class="menu__list__item"><a class="list__menu__link" href="#projects">Projects</a></li>
+                </ul>
+                <li class="open__menu__item"><a class="open__menu__link" href="#contact">Contact</a></li>
+            </ul>
+
+            <ul class="open__menu__dekstop">
+                <li class="open__menu__item"><a class="open__menu__link" href="#about">about</a></li>
+                <li class="open__menu__item"><a class="open__menu__link" href="#skills">Skills</a></li>
+                <li class="open__menu__item"><a class="open__menu__link" href="#hobbies">Hobbies</a></li>
+                <li class="open__menu__item"><a class="open__menu__link" href="#degree">Degree</a></li>
+                <li class="open__menu__item"><a class="open__menu__link" href="#projects">Projects</a></li>
+                <li class="open__menu__item"><a class="open__menu__link" href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="header_container">
+                <img class="header__image mood" id="mode-icon-sun" src="./assets/sun.svg" alt="ALternância de modo">
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="banner">
+                <div class="banner__container">
+                    <h1 class="banner__title">Olá mundo!<br>Sou a Thalia Araújo<br>Desenvolvedora Front-end.</h1>
+                    <ul class="banner__list">
+                        <li class="banner__list__item">
+                            <a class="banner__list__link" href="https://www.linkedin.com/in/thal%C3%ADa-ara%C3%BAjo/" target="_blank">Linkedin</a>
+                            <img class="banner__list__image" src="./assets/arrow.png">
+                        </li>
+                        <li class="banner__list__item">
+                            <a class="banner__list__link" href="https://github.com/Thaliaraujo" target="_blank">Github</a>
+                            <img class="banner__list__image" src="./assets/arrow.png">
+                        </li>
+                        <li class="banner__list__item">
+                            <a class="banner__list__link" href="https://www.instagram.com/liia_araujo/" target="_blank">Instagram</a>
+                            <img class="banner__list__image" src="./assets/arrow.png">
+                        </li>
+                        <li class="banner__list__item">
+                            <a class="banner__list__link" href="./assets/Curriculo-Thalía-Araújo.pdf" target="_blank">Download CV</a>
+                            <img class="banner__list__image" src="./assets/arrow.png">
+                        </li>
+                    </ul>
+                </div>
+                <div class="banner__container__image">
+                <img class="banner__image" src="./assets/cloud.svg" alt="Tecnologia em nuvem">
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="about__container">
+                    <div class="about__container__content">
+                        <img class="about__image" src="./assets/perfil.svg" alt="Foto de perfil da Thalía Araújo">
+                        <div class="about__container__description">
+                            <h2 class="about__title">About Me</h2>
+                            <p class="about__text">Cursando o 3º semestre de Análise e Desenvolvimento de Sistemas. Durante minha jornada acadêmica, tenho me dedicado intensamente ao aprendizado de programação, com foco em front-end.</p>
+                            <p class="about__text">Já concluí diversos cursos na plataforma Alura, aprimorando minhas habilidades em HTML, CSS, JavaScript e Git/GitHub.</p>
+                            <p class="about__text">Além disso, tenho paixão por fazer a diferença. Gosto de trabalhar em equipe e colaborar com pessoas de diferentes áreas para criar projetos que impactem positivamente a vida das pessoas.</p>
+                            <p class="about__text">Obrigado por visitar meu site e não hesite em entrar em <a class="about__text__link" href="#contact">contato</a>! 😊</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <div class="skills__container">
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <h3 class="skills__item__title">HTML</h3>
+                            <img class="skills__item__image" src="./assets/indicator-html.svg" alt="Indicador HTML">
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__item__title">CSS</h3>
+                            <img class="skills__item__image" src="./assets/indicator-css.svg" alt="Indicador CSS">
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__item__title">Git/GitHub</h3>
+                            <img class="skills__item__image" src="./assets/indicator-github.svg" alt="Indicador GitHub">
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__item__title">JavaScript</h3>
+                            <img class="skills__item__image" src="./assets/indicator-js.svg" alt="Indicador Javascript">
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__item__title">React</h3>
+                            <img class="skills__item__image" src="./assets/indicator-react.svg" alt="Indicador React">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="hobbies-degree">
+                <div class="hobbies" id="hobbies">
+                    <h3 class="hobbies__title">Hobbies</h3>
+                    <ul class="hobbies__list">
+                        <li class="hobbies__item">
+                            <img class="hobbies__item__image" src="./assets/Laptop.svg" alt="Laptop Rosa">
+                            <p class="hobbies__item__text">Codar</p>
+                        </li>
+                        <li class="hobbies__item">
+                            <img class="hobbies__item__image" src="./assets/headphone.svg" alt="Headphone Rosa">
+                            <p class="hobbies__item__text">Ouvir Músicas</p>
+                        </li>
+                        <li class="hobbies__item">
+                            <img class="hobbies__item__image" src="./assets/monitor.svg" alt="Monitor Rosa">
+                            <p class="hobbies__item__text">Maratonar Series</p>
+                        </li>
+                        <li class="hobbies__item">
+                            <img class="hobbies__item__image" src="./assets/aviao.svg" alt="Avião Rosa">
+                            <p class="hobbies__item__text">Viajar</p>
+                        </li>
+                        <li class="hobbies__item">
+                            <img class="hobbies__item__image" src="./assets/praia.svg" alt="Coqueiro na praia">
+                            <p class="hobbies__item__text">Caminhar na praia</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="degree" id="degree">
+                    <h3 class="degree__title">Degree</h3>
+                    <div class="degree__container">
+                        <ul class="degree__list">
+                            <li class="degree__item">
+                                <img class="degree__item__image" src="./assets/alura.svg" alt="Logo da Alura">
+                                <p class="degree__item__text">Formação Iniciante em Programação</p>
+                                <p class="degree__item__text">Concluído: 03/2023</p>
+                            </li>
+                            <li class="degree__item">
+                                <img class="degree__item__image" src="./assets/alura.svg" alt="Logo da Alura">
+                                <p class="degree__item__text">Formação Desenvolvimento Pessoal</p>
+                                <p class="degree__item__text">Concluído: 04/2023</p>
+                            </li>
+                            <li class="degree__item">
+                                <img class="degree__item__image" src="./assets/senac.svg" alt="Logo da Senac">
+                                <p class="degree__item__text">Análise e Desenvolvimento de Sistemas</p>
+                                <p class="degree__item__text">Conclusão: Julho/2024</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class=" projects__container__mobile">
+                    <h2 class="projects__title">Projects</h2>
+                    <div class="projects__container">
+                        <img class="projects__image projects__image2" src="./assets/decodificador.svg" alt="Tela inicial do Decodificador de Texto">
+                        <div class="projects__container__content  projects__container__content2">
+                            <h3 class="projects__content__title">Decodificador de Texto</h3>
+                            <p class="projects__content__text">Challenge Oracle One + Alura. Projeto desenvolvido em HTML, CSS e JS.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/decodificador-texto" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/decodificador-texto/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                    <div class="projects__container"> 
+                        <img class="projects__image" src="./assets/alura-books.svg" alt="Tela inicial do Alura Books">
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Books</h3>
+                            <p class="projects__content__text">Projeto desenvolvido em HTML, CSS e SwiperJS, com foco em responsividade.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-books" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-books/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                    <div class="projects__container">
+                        <img class="projects__image" src="./assets/alura-midi.svg" alt="Tela inicial do Alura Midi">
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Midi</h3>
+                            <p class="projects__content__text">Desenvolvido em HTML, CSS e JS, o foco é praticar as interações do JS com o DOM.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-midi" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-midi/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                    <div class="projects__container">
+                        <img class="projects__image" src="./assets/alura-plus.svg" alt="Tela inicial do Alura Plus">
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Plus</h3>
+                            <p class="projects__content__text">Desenvolvido em HTML e CSS, o foco é  praticar a criação de sites.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-plus" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-plus/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" projects__container__desktop">
+                    <h2 class="projects__title">Projects</h2>
+                    <div class="projects__container">
+                        <img class="projects__image projects__image2" src="./assets/decodificador.svg" alt="Tela inicial do Decodificador de Texto">
+                        <div class="projects__container__content  projects__container__content2">
+                            <h3 class="projects__content__title">Decodificador de Texto</h3>
+                            <p class="projects__content__text">Challenge Oracle One + Alura. Projeto desenvolvido em HTML, CSS e JS.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/decodificador-texto" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/decodificador-texto/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                    <div class="projects__container"> 
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Books</h3>
+                            <p class="projects__content__text">Projeto desenvolvido em HTML, CSS e SwiperJS, com foco em responsividade.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-books" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-books/" target="_blank">DEMO</a>
+                        </div>
+                        <img class="projects__image" src="./assets/alura-books.svg" alt="Tela inicial do Alura Books">
+                    </div>
+                    <div class="projects__container">
+                        <img class="projects__image" src="./assets/alura-midi.svg" alt="Tela inicial do Alura Midi">
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Midi</h3>
+                            <p class="projects__content__text">Desenvolvido em HTML, CSS e JS, o foco é praticar as interações do JS com o DOM.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-midi" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-midi/" target="_blank">DEMO</a>
+                        </div>
+                    </div>
+                    <div class="projects__container">
+                        <div class="projects__container__content">
+                            <h3 class="projects__content__title">Alura Plus</h3>
+                            <p class="projects__content__text">Desenvolvido em HTML e CSS, o foco é  praticar a criação de sites.</p>
+                            <a class="projects__content__link" href="https://github.com/Thaliaraujo/alura-plus" target="_blank">Repositório</a>
+                            <a class="projects__content__link" href="https://thaliaraujo.github.io/alura-plus/" target="_blank">DEMO</a>
+                        </div>
+                        <img class="projects__image" src="./assets/alura-plus.svg" alt="Tela inicial do Alura Plus">
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact__container">
+                    <h2 class="contact__container__title">Vamos conversar<br> sobre algo <strong>legal</strong> <br>juntos?</h2>
+                    <div class="contact__content">
+                        <email class="contact__content__email">thalia.araujo321@gmail.com</email>
+                        <ul class="contact__content__list">
+                            <li>
+                                <a class="contact__content__links" href="https://github.com/Thaliaraujo" target="_blank">
+                                    <img class="contact__content__image" src="./assets/github.svg" alt="Logo GitHub">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contact__content__links" href="https://www.linkedin.com/in/thal%C3%ADa-ara%C3%BAjo/" target="_blank">
+                                    <img class="contact__content__image" src="./assets/linkedin.svg" alt="Logo Linkedin">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contact__content__links" href="https://www.instagram.com/liia_araujo/" target="_blank">
+                                    <img class="contact__content__image" src="./assets/instagram.svg" alt="Logo Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <h2 class="contact__form__title">Diga Olá</h2>
+                    <form class="contact__form__item" onsubmit="return validarFormulario()" id="form">
+                        <div>
+                            <label for="name"></label>
+                            <input class="contact__form__link" type="text" id="name" maxlength="50" placeholder="Seu Nome">
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input class="contact__form__link" type="email" id="email"  placeholder="Seu E-mail">
+                        </div>
+                        <div>
+                            <label for="topic"></label>
+                            <input class="contact__form__link" type="text" id="topic" maxlength="50" placeholder="Assunto">
+                        </div>
+                        <div>
+                            <label for="textArea"></label>
+                            <textarea class="contact__form__link" type="text" id="textArea" maxlength="500"  placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="contact__form__submit">
+                            <button class="contact__form__button" type="submit" id="enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__text">Desenvolvido por Thalía Araújo</p>
+            <p class="footer__text">2023</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
+
+

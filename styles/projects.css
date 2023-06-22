@@ -1,0 +1,105 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__title{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__image{
+    width: 80vw;
+    padding: 2rem;
+}
+
+.projects__container__content{
+    margin: 0 1rem 0 2rem;
+    margin-bottom: 4rem;
+}
+
+.projects__content__title{
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid transparent;
+    border-image:  linear-gradient(270deg, #F22FB0 69.27%, rgba(255, 197, 111, 0.9) 100%);
+    border-image-slice: 1;
+    width: 60%; 
+}
+
+.projects__content__text{
+    text-align: justify;
+    line-height: 150%;
+    padding: 0.5em 1em 0.5em 0;
+}
+
+.projects__content__link{
+    display: inline-block;
+    font-size: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    width: 6rem;
+    margin: 0.5rem 0.5rem 1.5rem 0;
+    padding: 0.75rem;
+    background-image: var(--gradient-main);
+    border-radius: 3rem;
+}
+
+.projects__container__desktop{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .projects__container__mobile{
+        display: none;
+    }
+
+    .projects__container__desktop{
+        display: block;
+    }
+
+    .projects__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .projects__image{
+        width: 40vw;
+    }
+
+    .projects__container__content{
+        margin-top: 4rem;
+        padding: 2rem;
+    }
+    .projects__content__title{
+        border-bottom: 1.5px solid transparent;
+        border-image:  linear-gradient(270deg, #F22FB0 69.27%, rgba(255, 197, 111, 0.9) 100%);
+        border-image-slice: 1;
+        width: 60%; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .projects__title{
+        font-size: 2em;
+    }
+
+    .projects__content__title{
+        font-size: 1.5em;
+    }
+
+    .projects__content__text{
+        font-size: 1.2em;
+    }  
+}
