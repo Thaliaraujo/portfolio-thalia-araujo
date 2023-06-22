@@ -9,9 +9,9 @@ function toggleMode() {
   const currentMode = localStorage.getItem('mode');
   if (currentMode === 'dark') {
     document.body.classList.remove('dark-mode');
-    toggleButton.src = '../assets/sun.svg';
-    logoElement.src = '../assets/logo_blue.svg';
-    backgroundElement.style.backgroundImage = 'url("../assets/Menu.svg")';
+    toggleButton.src = './assets/sun.svg';
+    logoElement.src = './assets/logo_blue.svg';
+    backgroundElement.style.backgroundImage = 'url("./assets/Menu.svg")';
     Array.from(textElements).forEach(element => {
       element.style.color = '#162950';
     });
@@ -21,9 +21,9 @@ function toggleMode() {
     localStorage.setItem('mode', 'light');
   } else {
     document.body.classList.add('dark-mode');
-    toggleButton.src = '../assets/moon.svg';
-    logoElement.src = '../assets/logo-white.svg';
-    backgroundElement.style.backgroundImage = 'url("../assets/menu-purple.svg")';
+    toggleButton.src = './assets/moon.svg';
+    logoElement.src = './assets/logo-white.svg';
+    backgroundElement.style.backgroundImage = 'url("./assets/menu-purple.svg")';
     Array.from(textElements).forEach(element => {
       element.style.color = '#FFFF';
     });
