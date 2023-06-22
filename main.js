@@ -10,7 +10,7 @@ function toggleMode() {
   if (currentMode === 'dark') {
     document.body.classList.remove('dark-mode');
     toggleButton.src = './assets/sun.svg';
-    logoElement.src = './assets/logo_blue.svg';
+    logoElement.src = './assets/Logo_blue.svg';
     backgroundElement.style.backgroundImage = 'url("./assets/Menu.svg")';
     Array.from(textElements).forEach(element => {
       element.style.color = '#162950';
