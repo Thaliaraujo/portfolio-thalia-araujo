@@ -4,6 +4,21 @@ const backgroundElement = document.getElementById('header__menu');
 const textElements = document.getElementsByClassName('banner__list__link');
 const menuElements = document.getElementsByClassName('open__menu__link');
 
+// Verifica o modo atual ao carregar a página
+const currentMode = localStorage.getItem('mode');
+if (currentMode === 'dark') {
+  document.body.classList.add('dark-mode');
+  toggleButton.src = './assets/moon.svg'; 
+  logoElement.src = './assets/logo-white.svg';
+  backgroundElement.style.backgroundImage = 'url("./assets/menu-purple.svg")';
+  Array.from(textElements).forEach(element => {
+    element.style.color = '#ffffff';
+  });
+  Array.from(menuElements).forEach(element => {
+    element.style.color = '#ffffff';
+  });
+}
+
 // Função para alternar entre o modo claro e escuro
 function toggleMode() {
   const currentMode = localStorage.getItem('mode');
