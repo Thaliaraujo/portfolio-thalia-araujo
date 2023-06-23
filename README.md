@@ -37,10 +37,10 @@ https://thaliaraujo.github.io/portfolio-thalia-araujo/
 
 #### Versão tablet modo claro e escuro:
 <p>
-<img align="left" width="400px" style="margin-top:-20px" src="https://raw.githubusercontent.com/Thaliaraujo/portfolio-thalia-araujo/main/assets/portfolio-tablet-claro.png">
+<img align="left" width="350px" style="margin-top:-20px" src="https://raw.githubusercontent.com/Thaliaraujo/portfolio-thalia-araujo/main/assets/portfolio-tablet-claro.png">
 </p>
 <p>
-<img align="left" width="400px" style="margin-top:-20px" src="https://raw.githubusercontent.com/Thaliaraujo/portfolio-thalia-araujo/main/assets/portfolio-tablet-escuro.png">
+<img align="left" width="350px" style="margin-top:-20px" src="https://raw.githubusercontent.com/Thaliaraujo/portfolio-thalia-araujo/main/assets/portfolio-tablet-escuro.png">
 </p>
  
 <div dsplay="inline-block">
