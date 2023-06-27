@@ -102,13 +102,13 @@
     .menu__list__item{
         padding-right: 2rem;
     }
+    
+    .list__menu__item:hover {
+      opacity: 0.5;
+    }
 
     .menu__list__link{
         font-weight: 600;
-    }
-
-    .list__menu__link:hover {
-      opacity: 0.5;
     }
 }
 
