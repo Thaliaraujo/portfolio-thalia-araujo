@@ -55,10 +55,6 @@
     text-transform: uppercase;
 }
 
-.list__menu__link:hover {
-      opacity: 0.5;
-    }
-
 .open__menu{
     display: none;
 }
@@ -109,6 +105,10 @@
 
     .menu__list__link{
         font-weight: 600;
+    }
+
+    .list__menu__link:hover {
+      opacity: 0.5;
     }
 }
 
