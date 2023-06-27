@@ -106,10 +106,6 @@
     .menu__list__link{
         font-weight: 600;
     }
-
-    .menu__list__link:hover {
-      opacity: 0.5;
-    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -127,9 +123,5 @@
 
     .open__menu__link{
        font-weight: 600;
-    }
-
-    .open__menu__link:hover {
-      opacity: 0.5;
     }
 }
