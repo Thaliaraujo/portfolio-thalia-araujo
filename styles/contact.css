@@ -83,10 +83,6 @@ strong{
     color: var(--dark-blue);
 }
 
-.contact__form__link:hover {
-      transform: scale(1.1);
-}
-
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
@@ -113,6 +109,10 @@ textarea:focus, select:focus {
     padding: 0.75rem;
     background-image: var(--gradient-main);
     border-radius: 3rem;
+}
+
+.contact__form__button:hover {
+      transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
