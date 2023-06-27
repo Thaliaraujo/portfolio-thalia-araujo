@@ -38,6 +38,10 @@
     color: var(--dark-blue);
 }
 
+.banner__list__link:hover {
+      transform: scale(1.1);
+    }
+
 .banner__list__image{
     width: 0.5rem;
 }
