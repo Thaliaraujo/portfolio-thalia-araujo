@@ -83,6 +83,10 @@ strong{
     color: var(--dark-blue);
 }
 
+.contact__form__link:hover {
+      transform: scale(1.1);
+}
+
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
