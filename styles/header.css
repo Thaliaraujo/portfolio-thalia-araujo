@@ -103,12 +103,12 @@
         padding-right: 2rem;
     }
     
-    .list__menu__item:hover {
-      opacity: 0.5;
-    }
-
     .menu__list__link{
         font-weight: 600;
+    }
+
+    .menu__list__link:hover {
+      opacity: 0.5;
     }
 }
 
@@ -127,5 +127,9 @@
 
     .open__menu__link{
        font-weight: 600;
+    }
+
+    .open__menu__link:hover {
+      opacity: 0.5;
     }
 }
